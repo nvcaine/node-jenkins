@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  node_app:
+    container_name: 1st-node-app
+    image: romihalasz/1st-node-app
+    ports:
+      - "8000:8000"

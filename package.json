@@ -1,0 +1,14 @@
+{
+    "name": "node-app-docker",
+    "version": "1.0.0",
+    "description": "Fucking shit up with node and docker",
+    "author": "Romi",
+    "main": "src/app.js",
+    "scripts": {
+        "start": "node src/app.js"
+    },
+    "dependencies": {
+        "express": "^4.16.1"
+    }
+}
+  
