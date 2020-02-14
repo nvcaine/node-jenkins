@@ -6,3 +6,5 @@ services:
     image: romihalasz/1st-node-app
     ports:
       - "8000:8000"
+    volumes:
+      - "$PWD/src:/usr/app/src"
