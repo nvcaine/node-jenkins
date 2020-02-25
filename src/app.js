@@ -8,7 +8,7 @@ const host = '0.0.0.0';
 const app = express();
 
 app.get('/', (request, response) => {
-    response.send('Hello world. From GitHub.');
+    response.send('Hello world. From GitHub. Small update.');
 });
 
 app.listen(port, host);
