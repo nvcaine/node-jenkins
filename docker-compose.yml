@@ -8,3 +8,15 @@ services:
       - "8000:8000"
     volumes:
       - "$PWD/src:/usr/app/src"
+
+  node_app_test:
+    container_name: 1st-node-app-test
+    image: node-app-test
+    build:
+      context: .
+      dockerfile: Dockerfile.test
+    ports:
+      - "8001:8001"
+    volumes:
+      - "$PWD/src:/usr/app/src"
+      - "$PWD/test:/usr/app/test"
