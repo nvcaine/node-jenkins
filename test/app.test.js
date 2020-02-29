@@ -3,5 +3,5 @@ test('simple test', () => {
 });
 
 test('another simple test', () => {
-    expect(false).toBeFalsey();
+    expect(false).toBeFalsy();
 });
